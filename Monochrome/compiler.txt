@@ -1,0 +1,5 @@
+javac -cp ../lib/forms_rt.jar; model/*.java
+javac -cp ../lib/forms_rt.jar; view/*.java
+javac -cp ../lib/forms_rt.jar; viewmodel/*.java
+javac -cp ../lib/forms_rt.jar; view/MainMenu.java
+java -cp ../lib/forms_rt.jar;../lib/mysql-connector-j-8.3.0.jar; view/MainMenu
